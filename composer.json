@@ -42,10 +42,10 @@
         "php-console/php-console": "Allow sending log messages to Google Chrome"
     },
     "autoload": {
-        "psr-4": {"Monolog\\": "src/Monolog"}
+        "psr-4": {"LegacyMonolog\\": "src/LegacyMonolog"}
     },
     "autoload-dev": {
-        "psr-4": {"Monolog\\": "tests/Monolog"}
+        "psr-4": {"LegacyMonolog\\": "tests/LegacyMonolog"}
     },
     "provide": {
         "psr/log-implementation": "1.0.0"

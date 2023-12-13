@@ -86,9 +86,9 @@ Here is a basic setup to log to a file and to firephp on the DEBUG level:
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
+use LegacyMonolog\Logger;
+use LegacyMonolog\Handler\StreamHandler;
+use LegacyMonolog\Handler\FirePHPHandler;
 
 // Create the logger
 $logger = new Logger('my_logger');
@@ -172,9 +172,9 @@ You can easily grep through the log files filtering this or that channel.
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
+use LegacyMonolog\Logger;
+use LegacyMonolog\Handler\StreamHandler;
+use LegacyMonolog\Handler\FirePHPHandler;
 
 // Create some handlers
 $stream = new StreamHandler(__DIR__.'/my_app.log', Logger::DEBUG);

@@ -28,8 +28,8 @@ $ composer require monolog/monolog
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+use LegacyMonolog\Logger;
+use LegacyMonolog\Handler\StreamHandler;
 
 // create a log channel
 $log = new Logger('name');

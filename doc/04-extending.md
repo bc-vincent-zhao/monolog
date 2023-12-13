@@ -14,8 +14,8 @@ abstract class provided by Monolog to keep things DRY.
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\AbstractProcessingHandler;
+use LegacyMonolog\Logger;
+use LegacyMonolog\Handler\AbstractProcessingHandler;
 
 class PDOHandler extends AbstractProcessingHandler
 {
